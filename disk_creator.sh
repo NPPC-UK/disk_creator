@@ -1,10 +1,39 @@
 #!/bin/bash
 
+usage() {
+	echo "Usage:"
+	echo "disk_creator.sh OS_IMAGE USB_DRIVE"
+	echo
+	echo "Example:"
+	echo "disk_creator.sh ~/Downloads/xubuntu-18.04.2-desktop-amd64.iso /dev/sdd"
+	echo
+	echo "Create a live usb drive on the device '/dev/sdd' with the os found in"
+	echo "~/Downloads/xubuntu-18.04.2-desktop-amd64.iso"
+}
+
+if [ $# -ne 2 ]; then
+	echo "ERROR: expected exactly 2 arguments"
+	usage
+	exit 1
+fi
+
+if [ ! -b $2 ]; then
+	echo "ERROR: $2 is not a block device"
+	usage
+	exit 1
+fi
+
+if [ ! -f $1 ]; then
+	echo "ERROR: $1 is not a regular file"
+	usage
+	exit 1
+fi
+
 # The name of the USB drive you want to create
-usb_drive="/dev/sdd"
+usb_drive="$2"
 
 # The location of the linux distribution you want to use
-os_image="/mnt/os_images/xubuntu-18.04.2-desktop-amd64.iso"
+os_image="$1"
 
 # Removing leading directory/folder name
 image_name="${os_image##*/}"
