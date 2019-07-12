@@ -107,6 +107,9 @@ main() {
 	type=20
 	EOF
 
+	# waiting to ensure disk has been re recognised after partitioning
+	sleep 10
+
 	# Format each partition with the relevant filesystem.
 	mkfs.ntfs --fast -L usbdata "${usb_drive}1"
 	mkfs.fat -F 32 "${usb_drive}2"
