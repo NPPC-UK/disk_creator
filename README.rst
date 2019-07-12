@@ -94,6 +94,9 @@ device is `/dev/sdX`.
 Be absolutely that you have correctly identified the USB device at this point.
 If you have misidentified it, you will cause irreparable loss of data.
 
+Once identified, make sure you unmount or eject all partitions on the usb 
+device.
+
 Linux install image
 ###################
 
