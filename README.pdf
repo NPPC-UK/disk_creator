@@ -72,7 +72,7 @@ endobj
 endobj
 12 0 obj
 <<
-/Author () /CreationDate (D:20190712143033+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20190712143033+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+/Author () /CreationDate (D:20190823090518+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20190823090518+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
   /Subject (\(unspecified\)) /Title (Simple script to create persistent Live USB drive) /Trapped /False
 >>
 endobj
@@ -94,28 +94,28 @@ endobj
 endobj
 16 0 obj
 <<
-/Count 2 /Dest [ 6 0 R /XYZ 62.69291 400.8236 0 ] /First 17 0 R /Last 18 0 R /Next 19 0 R /Parent 13 0 R 
+/Count 2 /Dest [ 6 0 R /XYZ 62.69291 382.8236 0 ] /First 17 0 R /Last 18 0 R /Next 19 0 R /Parent 13 0 R 
   /Prev 14 0 R /Title (Usage)
 >>
 endobj
 17 0 obj
 <<
-/Dest [ 6 0 R /XYZ 62.69291 367.8236 0 ] /Next 18 0 R /Parent 16 0 R /Title (Identify USB device)
+/Dest [ 6 0 R /XYZ 62.69291 349.8236 0 ] /Next 18 0 R /Parent 16 0 R /Title (Identify USB device)
 >>
 endobj
 18 0 obj
 <<
-/Dest [ 9 0 R /XYZ 62.69291 390.6236 0 ] /Parent 16 0 R /Prev 17 0 R /Title (Linux install image)
+/Dest [ 9 0 R /XYZ 62.69291 318.6236 0 ] /Parent 16 0 R /Prev 17 0 R /Title (Linux install image)
 >>
 endobj
 19 0 obj
 <<
-/Dest [ 9 0 R /XYZ 62.69291 294.6236 0 ] /Next 20 0 R /Parent 13 0 R /Prev 16 0 R /Title (Running disk_creator)
+/Dest [ 9 0 R /XYZ 62.69291 222.6236 0 ] /Next 20 0 R /Parent 13 0 R /Prev 16 0 R /Title (Running disk_creator)
 >>
 endobj
 20 0 obj
 <<
-/Dest [ 10 0 R /XYZ 62.69291 765.0236 0 ] /Parent 13 0 R /Prev 19 0 R /Title (Testing it worked)
+/Dest [ 10 0 R /XYZ 62.69291 659.8236 0 ] /Parent 13 0 R /Prev 19 0 R /Title (Testing it worked)
 >>
 endobj
 21 0 obj
@@ -125,7 +125,7 @@ endobj
 endobj
 22 0 obj
 <<
-/Length 6665
+/Length 6740
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
@@ -333,24 +333,48 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 506.0236 cm
+1 0 0 1 62.69291 500.0236 cm
 Q
 q
 1 0 0 1 62.69291 488.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (grub with efi support) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 488.0236 cm
+Q
+q
+1 0 0 1 62.69291 470.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The linux kernel must be compiled with support for iso9660 file systems.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 458.0236 cm
+1 0 0 1 62.69291 440.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.124987 Tw (On debian based distributions most of these will be installed already, just in case here is how to install) Tj T* 0 Tw (them:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 412.8236 cm
+1 0 0 1 62.69291 394.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -360,40 +384,40 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 468.6898 36 re B*
+n -6 -6 492 36 re B*
 Q
 q
 .960784 .960784 .862745 rg
 n 0 12 6 12 re f*
 .960784 .960784 .862745 rg
 n 0 0 6 12 re f*
-BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 0 .501961 rg ($) Tj /F4 10 Tf 0 0 0 rg ( sudo apt update) Tj T* /F3 10 Tf 0 0 .501961 rg ($) Tj /F4 10 Tf 0 0 0 rg ( sudo apt install ntfs-3g util-linux dosfstools bash gawk bc) Tj T* ET
+BT 1 0 0 1 0 14 Tm 12 TL /F3 10 Tf 0 0 .501961 rg ($) Tj /F4 10 Tf 0 0 0 rg ( sudo apt update) Tj T* /F3 10 Tf 0 0 .501961 rg ($) Tj /F4 10 Tf 0 0 0 rg ( sudo apt install ntfs-3g util-linux dosfstools bash gawk bc grub-efi-amd64-bin) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 62.69291 379.8236 cm
+1 0 0 1 62.69291 361.8236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Usage) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 349.8236 cm
+1 0 0 1 62.69291 331.8236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Identify USB device) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 331.8236 cm
+1 0 0 1 62.69291 313.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (List all currently plugged in block devices, you might see something like this:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 82.62362 cm
+1 0 0 1 62.69291 88.62362 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -403,48 +427,44 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 468.6898 240 re B*
+n -6 -6 468.6898 216 re B*
 Q
 q
 .960784 .960784 .862745 rg
-n 0 216 6 12 re f*
+n 0 192 6 12 re f*
 .960784 .960784 .862745 rg
-n 0 204 360 12 re f*
+n 0 180 360 12 re f*
 .960784 .960784 .862745 rg
-n 0 192 414 12 re f*
+n 0 168 414 12 re f*
 .960784 .960784 .862745 rg
-n 0 180 372 12 re f*
+n 0 156 372 12 re f*
 .960784 .960784 .862745 rg
-n 0 168 402 12 re f*
+n 0 144 402 12 re f*
 .960784 .960784 .862745 rg
-n 0 156 426 12 re f*
+n 0 132 426 12 re f*
 .960784 .960784 .862745 rg
-n 0 144 414 12 re f*
+n 0 120 414 12 re f*
 .960784 .960784 .862745 rg
-n 0 132 348 12 re f*
+n 0 108 348 12 re f*
 .960784 .960784 .862745 rg
-n 0 120 360 12 re f*
+n 0 96 360 12 re f*
 .960784 .960784 .862745 rg
-n 0 108 402 12 re f*
+n 0 84 402 12 re f*
 .960784 .960784 .862745 rg
-n 0 96 402 12 re f*
+n 0 72 402 12 re f*
 .960784 .960784 .862745 rg
-n 0 84 438 12 re f*
-.960784 .960784 .862745 rg
-n 0 72 414 12 re f*
-.960784 .960784 .862745 rg
-n 0 60 432 12 re f*
+n 0 60 438 12 re f*
 .960784 .960784 .862745 rg
 n 0 48 414 12 re f*
 .960784 .960784 .862745 rg
-n 0 36 372 12 re f*
+n 0 36 432 12 re f*
 .960784 .960784 .862745 rg
-n 0 24 348 12 re f*
+n 0 24 414 12 re f*
 .960784 .960784 .862745 rg
 n 0 12 372 12 re f*
 .960784 .960784 .862745 rg
-n 0 0 414 12 re f*
-BT 1 0 0 1 0 218 Tm 12 TL /F3 10 Tf 0 0 .501961 rg ($) Tj /F4 10 Tf 0 0 0 rg ( lsblk) Tj T* .501961 .501961 .501961 rg (loop0              7:0    0  54.4M  1 loop /snap/core18/1055) Tj T* (loop1              7:1    0     4M  1 loop /snap/gnome-calculator/352) Tj T* (loop2              7:2    0  1008K  1 loop /snap/gnome-logs/57) Tj T* (loop3              7:3    0 140.7M  1 loop /snap/gnome-3-26-1604/90) Tj T* (loop4              7:4    0  35.3M  1 loop /snap/gtk-common-themes/1198) Tj T* (loop5              7:5    0  14.8M  1 loop /snap/gnome-characters/292) Tj T* (loop6              7:6    0  88.4M  1 loop /snap/core/7169) Tj T* (loop7              7:7    0  54.4M  1 loop /snap/core18/1049) Tj T* (loop8              7:8    0 149.9M  1 loop /snap/gnome-3-28-1804/67) Tj T* (loop9              7:9    0 149.9M  1 loop /snap/gnome-3-28-1804/63) Tj T* (loop10             7:10   0   3.7M  1 loop /snap/gnome-system-monitor/100) Tj T* (loop11             7:11   0  14.8M  1 loop /snap/gnome-characters/296) Tj T* (loop12             7:12   0   3.7M  1 loop /snap/gnome-system-monitor/95) Tj T* (loop13             7:13   0   2.3M  1 loop /snap/gnome-calculator/260) Tj T* (loop14             7:14   0  1008K  1 loop /snap/gnome-logs/61) Tj T* (loop15             7:15   0  88.5M  1 loop /snap/core/7270) Tj T* (loop16             7:16   0  14.5M  1 loop /snap/gnome-logs/45) Tj T* (loop17             7:17   0     4M  1 loop /snap/gnome-calculator/406) Tj T* ET
+n 0 0 348 12 re f*
+BT 1 0 0 1 0 194 Tm 12 TL /F3 10 Tf 0 0 .501961 rg ($) Tj /F4 10 Tf 0 0 0 rg ( lsblk) Tj T* .501961 .501961 .501961 rg (loop0              7:0    0  54.4M  1 loop /snap/core18/1055) Tj T* (loop1              7:1    0     4M  1 loop /snap/gnome-calculator/352) Tj T* (loop2              7:2    0  1008K  1 loop /snap/gnome-logs/57) Tj T* (loop3              7:3    0 140.7M  1 loop /snap/gnome-3-26-1604/90) Tj T* (loop4              7:4    0  35.3M  1 loop /snap/gtk-common-themes/1198) Tj T* (loop5              7:5    0  14.8M  1 loop /snap/gnome-characters/292) Tj T* (loop6              7:6    0  88.4M  1 loop /snap/core/7169) Tj T* (loop7              7:7    0  54.4M  1 loop /snap/core18/1049) Tj T* (loop8              7:8    0 149.9M  1 loop /snap/gnome-3-28-1804/67) Tj T* (loop9              7:9    0 149.9M  1 loop /snap/gnome-3-28-1804/63) Tj T* (loop10             7:10   0   3.7M  1 loop /snap/gnome-system-monitor/100) Tj T* (loop11             7:11   0  14.8M  1 loop /snap/gnome-characters/296) Tj T* (loop12             7:12   0   3.7M  1 loop /snap/gnome-system-monitor/95) Tj T* (loop13             7:13   0   2.3M  1 loop /snap/gnome-calculator/260) Tj T* (loop14             7:14   0  1008K  1 loop /snap/gnome-logs/61) Tj T* (loop15             7:15   0  88.5M  1 loop /snap/core/7270) Tj T* ET
 Q
 Q
 Q
@@ -455,12 +475,12 @@ endstream
 endobj
 23 0 obj
 <<
-/Length 6535
+/Length 6226
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 571.8236 cm
+1 0 0 1 62.69291 547.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -470,9 +490,13 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 468.6898 192 re B*
+n -6 -6 468.6898 216 re B*
 Q
 q
+.960784 .960784 .862745 rg
+n 0 192 372 12 re f*
+.960784 .960784 .862745 rg
+n 0 180 414 12 re f*
 .960784 .960784 .862745 rg
 n 0 168 426 12 re f*
 .960784 .960784 .862745 rg
@@ -503,21 +527,21 @@ n 0 24 252 12 re f*
 n 0 12 315.22 12 re f*
 .960784 .960784 .862745 rg
 n 0 0 267.22 12 re f*
-BT 1 0 0 1 0 170 Tm 12 TL /F4 10 Tf .501961 .501961 .501961 rg (loop18             7:18   0  42.8M  1 loop /snap/gtk-common-themes/1313) Tj T* (loop19             7:19   0 140.7M  1 loop /snap/gnome-3-26-1604/88) Tj T* (sda                8:0    0   7.3T  0 disk) Tj T* /F5 10 Tf 12 TL (nn) Tj /F4 10 Tf 12 TL (sda1             8:1    0   128M  0 part) Tj T* /F5 10 Tf 12 TL (nn) Tj /F4 10 Tf 12 TL (sda2             8:2    0   7.3T  0 part) Tj T* (sdb                8:16   0   9.1T  0 disk) Tj T* /F5 10 Tf 12 TL (nn) Tj /F4 10 Tf 12 TL (sdb1             8:17   0   9.1T  0 part) Tj T* (  ) Tj /F5 10 Tf 12 TL (nn) Tj /F4 10 Tf 12 TL (mass-swap    253:0    0   128G  0 lvm  [SWAP]) Tj T* (  ) Tj /F5 10 Tf 12 TL (nn) Tj /F4 10 Tf 12 TL (mass-storage 253:1    0     8T  0 lvm  /mnt/mass/storage) Tj T* (sdc                8:32   0   9.1T  0 disk) Tj T* /F5 10 Tf 12 TL (nn) Tj /F4 10 Tf 12 TL (sdc1             8:33   0   9.1T  0 part) Tj T* (  ) Tj /F5 10 Tf 12 TL (nn) Tj /F4 10 Tf 12 TL (mass-scratch 253:2    0     2T  0 lvm  /mnt/mass/scratch) Tj T* (nvme0n1          259:0    0 238.5G  0 disk) Tj T* /F5 10 Tf 12 TL (nn) Tj /F4 10 Tf 12 TL (nvme0n1p1      259:1    0   512M  0 part /boot/efi) Tj T* /F5 10 Tf 12 TL (nn) Tj /F4 10 Tf 12 TL (nvme0n1p2      259:2    0   238G  0 part /) Tj T* ET
+BT 1 0 0 1 0 194 Tm 12 TL /F4 10 Tf .501961 .501961 .501961 rg (loop16             7:16   0  14.5M  1 loop /snap/gnome-logs/45) Tj T* (loop17             7:17   0     4M  1 loop /snap/gnome-calculator/406) Tj T* (loop18             7:18   0  42.8M  1 loop /snap/gtk-common-themes/1313) Tj T* (loop19             7:19   0 140.7M  1 loop /snap/gnome-3-26-1604/88) Tj T* (sda                8:0    0   7.3T  0 disk) Tj T* /F5 10 Tf 12 TL (nn) Tj /F4 10 Tf 12 TL (sda1             8:1    0   128M  0 part) Tj T* /F5 10 Tf 12 TL (nn) Tj /F4 10 Tf 12 TL (sda2             8:2    0   7.3T  0 part) Tj T* (sdb                8:16   0   9.1T  0 disk) Tj T* /F5 10 Tf 12 TL (nn) Tj /F4 10 Tf 12 TL (sdb1             8:17   0   9.1T  0 part) Tj T* (  ) Tj /F5 10 Tf 12 TL (nn) Tj /F4 10 Tf 12 TL (mass-swap    253:0    0   128G  0 lvm  [SWAP]) Tj T* (  ) Tj /F5 10 Tf 12 TL (nn) Tj /F4 10 Tf 12 TL (mass-storage 253:1    0     8T  0 lvm  /mnt/mass/storage) Tj T* (sdc                8:32   0   9.1T  0 disk) Tj T* /F5 10 Tf 12 TL (nn) Tj /F4 10 Tf 12 TL (sdc1             8:33   0   9.1T  0 part) Tj T* (  ) Tj /F5 10 Tf 12 TL (nn) Tj /F4 10 Tf 12 TL (mass-scratch 253:2    0     2T  0 lvm  /mnt/mass/scratch) Tj T* (nvme0n1          259:0    0 238.5G  0 disk) Tj T* /F5 10 Tf 12 TL (nn) Tj /F4 10 Tf 12 TL (nvme0n1p1      259:1    0   512M  0 part /boot/efi) Tj T* /F5 10 Tf 12 TL (nn) Tj /F4 10 Tf 12 TL (nvme0n1p2      259:2    0   238G  0 part /) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 62.69291 551.8236 cm
+1 0 0 1 62.69291 527.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Plug in your usb drive and list all block devices again:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 434.6236 cm
+1 0 0 1 62.69291 410.6236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -553,38 +577,52 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 402.6236 cm
+1 0 0 1 62.69291 378.6236 cm
 q
 BT 1 0 0 1 0 14 Tm 1.310542 Tw 12 TL /F1 10 Tf 0 0 0 rg (Notice the new device, ) Tj /F6 10 Tf 0 0 0 rg (sdd) Tj /F1 10 Tf 0 0 0 rg (. It may be called differently on your machine, but will likely be named ) Tj /F6 10 Tf 0 0 0 rg (sdX) Tj /F1 10 Tf 0 0 0 rg  T* 0 Tw (where ) Tj /F6 10 Tf 0 0 0 rg (X) Tj /F1 10 Tf 0 0 0 rg ( is a letter. The full name of your usb device is ) Tj /F6 10 Tf 0 0 0 rg (/dev/sdX) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 372.6236 cm
+1 0 0 1 62.69291 348.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .862927 Tw (Be absolutely that you have correctly identified the USB device at this point. If you have misidentified it,) Tj T* 0 Tw (you will cause irreparable loss of data.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 330.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Once identified, make sure you unmount or eject all partitions on the usb device.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 300.6236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Linux install image) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 306.6236 cm
+1 0 0 1 62.69291 234.6236 cm
 q
 BT 1 0 0 1 0 50 Tm .32686 Tw 12 TL /F1 10 Tf 0 0 0 rg (Find the installer image for your favourite debian based distribution. You can typically find these things by) Tj T* 0 Tw 1.16622 Tw (searching 'get <) Tj (distribution_name) Tj (>) Tj (', 'download <) Tj (distribution_name) Tj (>) Tj (' or 'install <) Tj (distribution_name) Tj (>) Tj (' with) Tj T* 0 Tw .209986 Tw (your favourite search engine. You can also look for tutorials about how to install that distribution. They will) Tj T* 0 Tw .97186 Tw (likely include instructions about getting the installer image. Download the image and make a note of it's) Tj T* 0 Tw (location.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 273.6236 cm
+1 0 0 1 62.69291 201.6236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Running disk_creator) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 255.6236 cm
+1 0 0 1 62.69291 183.6236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Run 'disk_creator.sh' with root privileges:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 222.4236 cm
+1 0 0 1 62.69291 150.4236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -606,14 +644,23 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 190.4236 cm
+1 0 0 1 62.69291 118.4236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 8.002126 Tw (For instance, if your usb device is '/dev/sdd' and your installer image is located at) Tj T* 0 Tw ('/home/user/Downloads/ubuntu-18.04-amd64.iso' run:) Tj T* ET
 Q
 Q
+ 
+endstream
+endobj
+24 0 obj
+<<
+/Length 2147
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 133.2236 cm
+1 0 0 1 62.69291 715.8236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -639,50 +686,41 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 89.22362 cm
+1 0 0 1 62.69291 671.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .679988 Tw (The disk_creator will now run for some time while it copies things to the usb drive. Once it is done, read) Tj T* 0 Tw 2.866651 Tw (through the output it produced. If there are no obvious error messages, it should have completed) Tj T* 0 Tw (successfully.) Tj T* ET
 Q
 Q
- 
-endstream
-endobj
-24 0 obj
-<<
-/Length 1154
->>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 744.0236 cm
+1 0 0 1 62.69291 638.8236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Testing it worked) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 714.0236 cm
+1 0 0 1 62.69291 608.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .20881 Tw (The USB drive should now have three partitions. One each of NTFS, ext4 and FAT32. When plugged into) Tj T* 0 Tw (a windows machine, one of them should appear as a large empty partition labeled 'usbdata'.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 684.0236 cm
+1 0 0 1 62.69291 578.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .625777 Tw (You should be able to boot from the USB drive, into whatever installer image you provided. If it does so,) Tj T* 0 Tw (test that a test file created on the desktop remains there after a reboot.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 666.0236 cm
+1 0 0 1 62.69291 560.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (If all these tests are successful, everything should have worked.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 636.0236 cm
+1 0 0 1 62.69291 530.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .775251 Tw (If not, read the contents of the 'disk_creator.sh' script and try to understand what it is doing. It is heavily) Tj T* 0 Tw (commented.) Tj T* ET
@@ -736,16 +774,16 @@ xref
 0000002673 00000 n 
 0000002792 00000 n 
 0000002865 00000 n 
-0000009582 00000 n 
-0000016169 00000 n 
-0000017375 00000 n 
-0000017434 00000 n 
-0000017468 00000 n 
-0000017502 00000 n 
+0000009657 00000 n 
+0000015935 00000 n 
+0000018134 00000 n 
+0000018193 00000 n 
+0000018227 00000 n 
+0000018261 00000 n 
 trailer
 <<
 /ID 
-[<46ce85594f1920693247adaaa9e2eec5><46ce85594f1920693247adaaa9e2eec5>]
+[<364a6530f9a8a5dd5c1044d928096ce9><364a6530f9a8a5dd5c1044d928096ce9>]
 % ReportLab generated PDF document -- digest (http://www.reportlab.com)
 
 /Info 12 0 R
@@ -753,5 +791,5 @@ trailer
 /Size 29
 >>
 startxref
-17536
+18295
 %%EOF

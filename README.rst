@@ -18,6 +18,7 @@ Dependencies
 * dosfstools
 * awk
 * bc
+* grub with efi support
 
 The linux kernel must be compiled with support for iso9660 file systems.
 
@@ -27,7 +28,7 @@ case here is how to install them:
 .. code-block:: console
 
    $ sudo apt update
-   $ sudo apt install ntfs-3g util-linux dosfstools bash gawk bc
+   $ sudo apt install ntfs-3g util-linux dosfstools bash gawk bc grub-efi-amd64-bin
 
 Usage
 -----
