@@ -72,7 +72,7 @@ endobj
 endobj
 12 0 obj
 <<
-/Author () /CreationDate (D:20190823090807+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20190823090807+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+/Author () /CreationDate (D:20190823090838+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20190823090838+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
   /Subject (\(unspecified\)) /Title (Simple script to create persistent Live USB drive) /Trapped /False
 >>
 endobj
@@ -105,12 +105,12 @@ endobj
 endobj
 18 0 obj
 <<
-/Dest [ 9 0 R /XYZ 62.69291 318.6236 0 ] /Parent 16 0 R /Prev 17 0 R /Title (Linux install image)
+/Dest [ 9 0 R /XYZ 62.69291 294.6236 0 ] /Parent 16 0 R /Prev 17 0 R /Title (Linux install image)
 >>
 endobj
 19 0 obj
 <<
-/Dest [ 9 0 R /XYZ 62.69291 222.6236 0 ] /Next 20 0 R /Parent 13 0 R /Prev 16 0 R /Title (Running disk_creator)
+/Dest [ 9 0 R /XYZ 62.69291 198.6236 0 ] /Next 20 0 R /Parent 13 0 R /Prev 16 0 R /Title (Running disk_creator)
 >>
 endobj
 20 0 obj
@@ -475,7 +475,7 @@ endstream
 endobj
 23 0 obj
 <<
-/Length 6234
+/Length 6541
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
@@ -590,39 +590,38 @@ BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 3.17436 Tw (Be absolutely certain that you ha
 Q
 Q
 q
-1 0 0 1 62.69291 330.6236 cm
+1 0 0 1 62.69291 306.6236 cm
 q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Once identified, make sure you unmount or eject all partitions on the usb device.) Tj T* ET
+BT 1 0 0 1 0 26 Tm .56683 Tw 12 TL /F1 10 Tf 0 0 0 rg (Once identified, make sure you unmount or eject all partitions on the usb device. You can do this via the) Tj T* 0 Tw .11936 Tw (command line using the ) Tj /F6 10 Tf 0 0 0 rg (mount) Tj /F1 10 Tf 0 0 0 rg ( and ) Tj /F6 10 Tf 0 0 0 rg (umount) Tj /F1 10 Tf 0 0 0 rg ( commands, or from the graphical file manager that is included) Tj T* 0 Tw (with your linux environment.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 300.6236 cm
+1 0 0 1 62.69291 276.6236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Linux install image) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 234.6236 cm
+1 0 0 1 62.69291 210.6236 cm
 q
 BT 1 0 0 1 0 50 Tm .32686 Tw 12 TL /F1 10 Tf 0 0 0 rg (Find the installer image for your favourite debian based distribution. You can typically find these things by) Tj T* 0 Tw 1.16622 Tw (searching 'get <) Tj (distribution_name) Tj (>) Tj (', 'download <) Tj (distribution_name) Tj (>) Tj (' or 'install <) Tj (distribution_name) Tj (>) Tj (' with) Tj T* 0 Tw .209986 Tw (your favourite search engine. You can also look for tutorials about how to install that distribution. They will) Tj T* 0 Tw .97186 Tw (likely include instructions about getting the installer image. Download the image and make a note of it's) Tj T* 0 Tw (location.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 201.6236 cm
+1 0 0 1 62.69291 177.6236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Running disk_creator) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 183.6236 cm
+1 0 0 1 62.69291 159.6236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Run 'disk_creator.sh' with root privileges:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 150.4236 cm
+1 0 0 1 62.69291 126.4236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -632,19 +631,19 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 468.6898 24 re B*
+n -6 -6 486 24 re B*
 Q
 q
 .960784 .960784 .862745 rg
 n 0 0 6 12 re f*
-BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 .501961 rg ($) Tj /F4 10 Tf 0 0 0 rg ( sudo /path/to/disk_creator.sh /path/to/installer/image.iso /dev/sdX) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F3 10 Tf 0 0 .501961 rg ($) Tj /F4 10 Tf 0 0 0 rg ( sudo /bin/bash /path/to/disk_creator.sh /path/to/installer/image.iso /dev/sdX) Tj T* ET
 Q
 Q
 Q
 Q
 Q
 q
-1 0 0 1 62.69291 118.4236 cm
+1 0 0 1 62.69291 94.42362 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 8.002126 Tw (For instance, if your usb device is '/dev/sdd' and your installer image is located at) Tj T* 0 Tw ('/home/user/Downloads/ubuntu-18.04-amd64.iso' run:) Tj T* ET
@@ -775,15 +774,15 @@ xref
 0000002792 00000 n 
 0000002865 00000 n 
 0000009657 00000 n 
-0000015943 00000 n 
-0000018142 00000 n 
-0000018201 00000 n 
-0000018235 00000 n 
-0000018269 00000 n 
+0000016250 00000 n 
+0000018449 00000 n 
+0000018508 00000 n 
+0000018542 00000 n 
+0000018576 00000 n 
 trailer
 <<
 /ID 
-[<ea3341b450a1aab5e58aec3fbbc4efb6><ea3341b450a1aab5e58aec3fbbc4efb6>]
+[<d3ba5d446eb7d617d7cc837e92b79d6a><d3ba5d446eb7d617d7cc837e92b79d6a>]
 % ReportLab generated PDF document -- digest (http://www.reportlab.com)
 
 /Info 12 0 R
@@ -791,5 +790,5 @@ trailer
 /Size 29
 >>
 startxref
-18303
+18610
 %%EOF

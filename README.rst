@@ -96,7 +96,9 @@ Be absolutely certain that you have correctly identified the USB device at this
 point.  If you have misidentified it, you will cause irreparable loss of data.
 
 Once identified, make sure you unmount or eject all partitions on the usb 
-device.
+device.  You can do this via the command line using the `mount` and `umount` 
+commands, or from the graphical file manager that is included with your linux
+environment.
 
 Linux install image
 ###################
@@ -115,7 +117,7 @@ Run 'disk_creator.sh' with root privileges:
 
 .. code-block:: console
 
-   $ sudo /path/to/disk_creator.sh /path/to/installer/image.iso /dev/sdX
+   $ sudo /bin/bash /path/to/disk_creator.sh /path/to/installer/image.iso /dev/sdX
 
 For instance, if your usb device is '/dev/sdd' and your installer image is
 located at '/home/user/Downloads/ubuntu-18.04-amd64.iso' run:
