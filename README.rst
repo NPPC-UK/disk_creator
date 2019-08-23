@@ -98,7 +98,8 @@ point.  If you have misidentified it, you will cause irreparable loss of data.
 Once identified, make sure you unmount or eject all partitions on the usb 
 device.  You can do this via the command line using the `mount` and `umount` 
 commands, or from the graphical file manager that is included with your linux
-environment.
+environment. Normally there will be symbol that looks like the eject button on
+a CD player or tape deck.
 
 Linux install image
 ###################
