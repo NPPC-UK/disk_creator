@@ -72,7 +72,7 @@ endobj
 endobj
 12 0 obj
 <<
-/Author () /CreationDate (D:20190823090838+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20190823090838+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+/Author () /CreationDate (D:20190823090956+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20190823090956+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
   /Subject (\(unspecified\)) /Title (Simple script to create persistent Live USB drive) /Trapped /False
 >>
 endobj
@@ -654,7 +654,7 @@ endstream
 endobj
 24 0 obj
 <<
-/Length 2147
+/Length 2157
 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
@@ -675,10 +675,10 @@ q
 .960784 .960784 .862745 rg
 n 0 24 6 12 re f*
 .960784 .960784 .862745 rg
-n 192 24 6 12 re f*
+n 252 24 6 12 re f*
 .960784 .960784 .862745 rg
 n 276 12 6 12 re f*
-BT 1 0 0 1 0 26 Tm 12 TL /F3 10 Tf 0 0 .501961 rg ($) Tj /F4 10 Tf 0 0 0 rg ( sudo /path/to/disk_creator.sh ) Tj /F3 10 Tf .733333 .4 .133333 rg (\\) Tj T* /F4 10 Tf 0 0 0 rg (>) Tj ( /home/user/Downloads/ubuntu-18.04-amd64.iso ) Tj /F3 10 Tf .733333 .4 .133333 rg (\\) Tj T* /F4 10 Tf 0 0 0 rg (>) Tj ( /dev/sdd) Tj T* ET
+BT 1 0 0 1 0 26 Tm 12 TL /F3 10 Tf 0 0 .501961 rg ($) Tj /F4 10 Tf 0 0 0 rg ( sudo /bin/bash /path/to/disk_creator.sh ) Tj /F3 10 Tf .733333 .4 .133333 rg (\\) Tj T* /F4 10 Tf 0 0 0 rg (>) Tj ( /home/user/Downloads/ubuntu-18.04-amd64.iso ) Tj /F3 10 Tf .733333 .4 .133333 rg (\\) Tj T* /F4 10 Tf 0 0 0 rg (>) Tj ( /dev/sdd) Tj T* ET
 Q
 Q
 Q
@@ -775,14 +775,14 @@ xref
 0000002865 00000 n 
 0000009657 00000 n 
 0000016250 00000 n 
-0000018449 00000 n 
-0000018508 00000 n 
-0000018542 00000 n 
-0000018576 00000 n 
+0000018459 00000 n 
+0000018518 00000 n 
+0000018552 00000 n 
+0000018586 00000 n 
 trailer
 <<
 /ID 
-[<d3ba5d446eb7d617d7cc837e92b79d6a><d3ba5d446eb7d617d7cc837e92b79d6a>]
+[<a827295f00c537d5a67f401bb223c0a6><a827295f00c537d5a67f401bb223c0a6>]
 % ReportLab generated PDF document -- digest (http://www.reportlab.com)
 
 /Info 12 0 R
@@ -790,5 +790,5 @@ trailer
 /Size 29
 >>
 startxref
-18610
+18620
 %%EOF

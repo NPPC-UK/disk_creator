@@ -124,7 +124,7 @@ located at '/home/user/Downloads/ubuntu-18.04-amd64.iso' run:
 
 .. code-block:: console
 
-   $ sudo /path/to/disk_creator.sh \
+   $ sudo /bin/bash /path/to/disk_creator.sh \
    > /home/user/Downloads/ubuntu-18.04-amd64.iso \
    > /dev/sdd
 
