@@ -92,8 +92,8 @@ Notice the new device, `sdd`.  It may be called differently on your machine, but
 will likely be named `sdX` where `X` is a letter.  The full name of your usb
 device is `/dev/sdX`.
 
-Be absolutely that you have correctly identified the USB device at this point.
-If you have misidentified it, you will cause irreparable loss of data.
+Be absolutely certain that you have correctly identified the USB device at this
+point.  If you have misidentified it, you will cause irreparable loss of data.
 
 Once identified, make sure you unmount or eject all partitions on the usb 
 device.
